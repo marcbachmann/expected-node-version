@@ -1,0 +1,15 @@
+{
+  "name": "expected-node-version",
+  "version": "1.0.0",
+  "description": "Retrieves the node version from the package.json or .nvmrc file",
+  "main": "index.js",
+  "engines": { "node": ">=0.10.0"},
+  "scripts": {
+    "test": "standard && node test"
+  },
+  "author": "Marc Bachmann <marc.brookman@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^5.2.2"
+  }
+}
