@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Retrieves the node version from the package.json or .nvmrc file",
   "main": "index.js",
-  "engines": { "node": ">=0.10.0"},
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "scripts": {
     "test": "standard && node test"
   },
@@ -11,5 +13,24 @@
   "license": "MIT",
   "devDependencies": {
     "standard": "^5.2.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "standard": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbachmann/expected-node-version.git"
+  },
+  "keywords": [
+    "node",
+    "version",
+    "npmrc"
+  ],
+  "bugs": {
+    "url": "https://github.com/marcbachmann/expected-node-version/issues"
+  },
+  "homepage": "https://github.com/marcbachmann/expected-node-version#readme"
 }
