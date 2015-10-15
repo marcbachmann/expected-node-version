@@ -1,6 +1,6 @@
 {
   "name": "expected-node-version",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Retrieves the node version from the package.json or .nvmrc file",
   "main": "index.js",
   "engines": {
