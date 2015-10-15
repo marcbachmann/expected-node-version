@@ -17,9 +17,6 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "standard": "^5.2.2"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marcbachmann/expected-node-version.git"
